@@ -3,42 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <title>GrannyArt Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      background-color: #f5f5f5;
-      font-family: Arial, sans-serif;
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #120A8F, #5D3FD3);
+      color: #fff;
+    }
+    header {
       text-align: center;
-      padding: 50px;
+      padding: 50px 20px;
     }
-    h1 {
-      color: #003366;
+    header h1 {
+      font-size: 3em;
+      margin: 0;
     }
-    .section {
-      margin: 20px 0;
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
     }
-    a {
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+    h2 {
+      border-bottom: 2px solid #fff;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+    }
+    img {
+      max-width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    a.button {
       display: inline-block;
       margin-top: 20px;
-      padding: 10px 20px;
-      background-color: #003366;
-      color: white;
+      padding: 12px 25px;
+      background-color: #ffcc00;
+      color: #000;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: background 0.3s;
     }
-    a:hover {
-      background-color: #0055aa;
+    a.button:hover {
+      background-color: #ffd633;
     }
   </style>
 </head>
 <body>
-  <h1>GrannyArt Portfolio</h1>
-  <div class="section">
-    <p>안녕하세요! 이것은 연습용 포트폴리오 페이지입니다.</p>
-    <p>간단한 자기소개나 링크를 넣을 수 있어요.</p>
-  </div>
-  <div class="section">
-    <h2>링크</h2>
-    <p><a href="index.html">홈으로 돌아가기</a></p>
-  </div>
+  <header>
+    <h1>✨ GrannyArt Portfolio ✨</h1>
+    <p>AI와 함께 새로운 예술을 실험하는 원아의 작업 공간</p>
+  </header>
+
+  <section>
+    <h2>👩 소개</h2>
+    <p>안녕하세요, 저는 GrannyArt (구향원, 원아) 입니다.<br>
+       그림, 음악, 글쓰기를 통해 삶을 기록하고<br>
+       AI와 결합해 새로운 예술을 탐험합니다.</p>
+  </section>
+
+  <section>
+    <h2>🎨 작품 미리보기</h2>
+    <img src="https://placedog.net/400/300" alt="강아지 작품 예시">
+    <p>반려견과 사람들의 일상을 담은 드로잉 & 크로키</p>
+  </section>
+
+  <section>
+    <h2>📬 mobile phone:01022721217</h2>
+    <p>Email: <a href="mailto:elliekooe@naver.com" style="color:#ffcc00;">elliekoo92@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/elliekoo92-bot" target="_blank" style="color:#ffcc00;">내 깃허브 보기</a></p>
+  </section>
+
+  <section style="text-align:center;">
+    <a href="index.html" class="button">🏠 홈으로 돌아가기</a>
+  </section>
 </body>
 </html>
