@@ -1,35 +1,32 @@
+
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
   <title>GrannyArt</title>
-  <!-- 구글 폰트 불러오기 (Poppins) -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Google Analytics 태그 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-CF5MLRX1Q"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-CF5MLRX1Q');
+  </script>
+  
   <style>
     body {
-      margin: 0;
-      padding: 20px;
-      font-family: 'Poppins', sans-serif;
-      background-color: #120A8F; /* 울트라마린 */
-      color: #fff;
+      background-color: #3f00ff; /* 울트라마린 */
+      font-family: 'Trebuchet MS', 'Helvetica', sans-serif; /* 깔끔한 폰트 */
+      color: white;
       text-align: center;
-    }
-    h1 {
-      font-size: 2.5em;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 1.2em;
+      padding: 50px;
     }
     img {
       cursor: pointer;
-      border: 3px solid #fff;
-      border-radius: 12px;
+      border: 3px solid white;
+      border-radius: 15px;
       margin-top: 20px;
-      transition: transform 0.2s ease-in-out;
-    }
-    img:hover {
-      transform: scale(1.05);
     }
   </style>
 </head>
@@ -38,10 +35,7 @@
   <p>이건 GitHub Pages로 만든 첫 웹페이지야 🐾</p>
 
   <!-- 강아지 이미지 -->
-  <img 
-    src="https://placedog.net/400/300" 
-    alt="강아지"
-    onclick="alert('یہی بات ہے 🐶✨')"
-  />
+  <img src="https://placedog.net/400/300" alt="강아지"
+       onclick="alert('멍멍! 강아지를 눌렀네 🐶')" />
 </body>
 </html>
