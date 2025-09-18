@@ -30,3 +30,43 @@
 ---
 
 ## Architecture
+## Getting Started
+### Prerequisites
+- Node.js >= 18
+- npm 또는 yarn 설치 필요
+
+### Installation
+```bash
+git clone https://github.com/username/tiers-lieu-demo.git
+cd tiers-lieu-demo
+npm install
+## Getting Started
+### Prerequisites
+- Node.js >= 18
+- npm 또는 yarn 설치 필요
+
+### Installation
+```bash
+git clone https://github.com/username/tiers-lieu-demo.git
+cd tiers-lieu-demo
+npm install
+## Getting Started
+### Prerequisites
+- Node.js >= 18
+- npm 또는 yarn 설치 필요
+
+### Installation
+```bash
+git clone https://github.com/username/tiers-lieu-demo.git
+cd tiers-lieu-demo
+npm install
+## Getting Started
+### Prerequisites
+- Node.js >= 18
+- npm 또는 yarn 설치 필요
+
+### Installation
+```bash
+git clone https://github.com/username/tiers-lieu-demo.git
+cd tiers-lieu-demo
+npm install
